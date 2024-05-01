@@ -1,0 +1,7 @@
+FROM node:hydrogen-alpine
+WORKDIR /usr/src/app
+COPY swsec-intro-angular-frontend /usr/src/app
+RUN npm install -g @angular/cli@12
+RUN npm install
+ENV NODE_OPTIONS=--openssl-legacy-provider
+CMD ["ng", "serve", "--host", "0.0.0.0"]

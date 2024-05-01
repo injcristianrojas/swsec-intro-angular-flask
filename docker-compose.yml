@@ -1,0 +1,13 @@
+services:
+
+  frontend:
+    build:
+      dockerfile: ./Dockerfile-angular
+    ports:
+      - "4200:4200"
+  
+  backend:
+    build:
+      dockerfile: ./Dockerfile-flask
+    ports:
+      - "9000:9000"

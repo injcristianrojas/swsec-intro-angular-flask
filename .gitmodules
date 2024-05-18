@@ -1,6 +1,6 @@
-[submodule "swsec-intro-backend-python"]
+[submodule "swsec-intro-backend-flask"]
 	path = backend
-	url = https://github.com/injcristianrojas/swsec-intro-backend-python.git
+	url = https://github.com/injcristianrojas/swsec-intro-backend-flask.git
 [submodule "swsec-intro-frontend-angular"]
 	path = frontend
 	url = https://github.com/injcristianrojas/swsec-intro-frontend-angular.git

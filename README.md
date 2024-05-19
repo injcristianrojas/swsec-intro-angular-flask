@@ -18,7 +18,7 @@ npm install
 npm start
 ```
 
-Frontent (in different terminal):
+Frontend (in different terminal):
 
 ```
 cd frontend
